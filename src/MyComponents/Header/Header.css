@@ -1,0 +1,169 @@
+.navbar{
+    background: rgb(0,0,0);
+    background: linear-gradient(86deg, rgba(0,0,0,1) 25%, rgba(46,50,51,1) 100%);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid rgba(80, 78, 78, 0.81);
+    /* overflow: hidden; */
+    position: sticky;
+    top: 0;
+}
+
+@keyframes slideRight {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+        
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes float {
+    0%{
+        transform: translateY(-2px);
+        
+    }
+    50%{
+        transform: translateY(2px);
+    }
+    100%{
+        transform: translateY(-2px);
+    }
+}
+.slideRight{
+    animation: slideRight 1s ease-out;
+}
+.float{
+    animation: float 3s ease-in-out infinite;
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse {
+        margin-left: 30px;
+    }
+    .humaneslogo{
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+        width: 120px;
+        height: 75px;
+    }
+    .navbar-nav{
+        position: absolute;
+        font-size: 20px;
+    }
+    .nav-link{
+        margin-right: 8px;
+    }
+    .navbar-brand{
+        position: relative;
+        right: 30px;
+        top: 3px;
+    }
+    .login{
+        background-color: rgb(94, 96, 97);
+        width: 80px;
+        border-radius: 20px;
+        margin-right: 25px;
+        margin-left: 20px;
+        transition: background-color 0.3s ease;
+    }
+    .login a{
+        margin-left: 5px;
+    }
+    .login:hover {
+        background-color: rgb(164, 163, 163);
+        color: black;
+    }
+    .navbar-light .navbar-nav .login .nav-link:hover{
+        color: white;
+        text-decoration: none;
+        transform: none;
+    }
+    
+
+    /* navbar-light class text color  */
+    .navbar-light .navbar-nav .nav-link.active{
+        color: white;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .navbar-light .navbar-nav .nav-link.active:hover{
+        color: rgb(171, 169, 169);
+        text-decoration: underline;
+        transform: translateY(-4px);
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(171, 169, 169);
+        text-decoration: underline;
+        transform: translateY(-4px);
+    }
+
+}
+
+@media (max-width: 992px) {
+    .show{
+        top: 85px;
+        left: 0px;
+        width: 100vw;
+    }
+    .collapsing{
+        top: 85px;
+        left: 0px;
+        width: 100vw;
+    }
+    .humaneslogo{
+        position: relative;
+        bottom: 4px;
+        left: 11px;
+        width: 100px;
+        height: 65px;
+    }
+
+    .nav-link{
+        margin-left: 20px;
+        transition: all .3s;
+    }
+    .navbar-brand{
+        position: relative;
+        right: 28px;
+    }
+    .navbar-collapse{
+        transition: all .8s;
+        z-index: 999;
+    }
+    .navbar-toggler:focus{
+        box-shadow:none;
+    }
+    /* navbar-light class text color  */
+    .navbar-light .navbar-nav .nav-link.active{
+        color: white;
+    }
+    .navbar-light .navbar-nav .nav-link.active:hover{
+        color: rgb(189, 184, 184);
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(189, 184, 184);
+    }
+    .login{
+        background-color: rgb(94, 96, 97);
+        width: 80px;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 25px;
+        margin-left: 16px;
+        margin-top: 8px;
+        transition: background-color 0.3s ease;
+    }
+    .login a{
+        margin-left: 18px;
+    }
+}

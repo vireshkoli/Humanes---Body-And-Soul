@@ -1,0 +1,89 @@
+@media (min-width:992px) {
+  .card{
+    font-family: 'Geologica', sans-serif;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .cardimg{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .img-fluid{
+    border-radius: 20px;
+  }
+  .cardcontent{
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+  }
+  .card-body h5{
+    font-size: 3.1vw;
+  }
+  .card-text{
+    color: rgb(100, 99, 99);
+  }
+  .expbtn{
+    position: relative;
+    width: 22%;
+  }
+}
+
+@media (max-width:992px) {
+  .card{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Geologica', sans-serif;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardimg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    padding: 25px 0px 0px 0px;
+    margin: auto;
+  }
+  .img-fluid{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .cardcontent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 3.5vw;
+  }
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .card-body h5{
+    font-size: 6vw;
+  }
+  .card-text{
+    color: rgb(100, 99, 99);
+    margin-bottom: 12px;
+  }
+  .expbtn{
+    position: relative;
+    width: 60%;
+    font-size: 4vw;
+  }
+}

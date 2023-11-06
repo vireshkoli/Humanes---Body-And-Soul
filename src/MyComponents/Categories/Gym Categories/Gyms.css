@@ -1,0 +1,15 @@
+@media (max-width:992px) {
+    .gymcardbody{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: start;
+        margin: 0 2vw 0 2vw;
+    }
+    .gymcardtext{
+        font-size: 3.5vw;
+    }
+    .gymcardbody a{
+        width: 30vw;
+    }
+}
