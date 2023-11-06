@@ -48,7 +48,7 @@ function Slider() {
           <h1>We Believe You Can</h1>
             <h4>Fitness Plans, Gym Memberships, Qualified Trainers, </h4>
             <h4>Diet Categories, Supplements And Many More !</h4>
-            <a href="/" className="btn btn-outline-light btn-sm"><b>GET STARTED</b></a>
+            <a href="/" className="btn btn-outline-light btn-md"><b>GET STARTED</b></a>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="8000">
@@ -56,7 +56,7 @@ function Slider() {
           <div className="carousel-caption caption3 carouselcap">
           <h1>Premium Membership Programes</h1>
             <h4>Start Your Journey Today !</h4>
-            <a href="/" className="btn btn-outline-light btn-sm"><b>LEARN MORE</b></a>
+            <a href="/" className="btn btn-outline-light btn-md"><b>LEARN MORE</b></a>
           </div>
         </div>
       </div>

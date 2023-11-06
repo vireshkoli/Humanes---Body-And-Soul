@@ -64,14 +64,18 @@
     }
     .login{
         background-color: rgb(94, 96, 97);
-        width: 80px;
+        width: 7vw;
         border-radius: 20px;
+        border-style: double;
         margin-right: 25px;
         margin-left: 20px;
         transition: background-color 0.3s ease;
     }
     .login a{
-        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
     }
     .login:hover {
         background-color: rgb(164, 163, 163);

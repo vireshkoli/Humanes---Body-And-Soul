@@ -3,6 +3,7 @@ import "./Category.css";
 
 function Category(props) {
   return (
+    <>
     <div className="card mb-3" data-aos="fade-left" data-aos-duration="1000">
       <div className="row g-0">
         <div className="col-md-4 cardimg">
@@ -17,6 +18,7 @@ function Category(props) {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
