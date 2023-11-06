@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Humanes---Body-And-Soul/static/css/main.a939a585.css",
+    "main.js": "/Humanes---Body-And-Soul/static/js/main.9efbaabf.js",
+    "static/js/787.8fd7ee04.chunk.js": "/Humanes---Body-And-Soul/static/js/787.8fd7ee04.chunk.js",
+    "static/media/highpremiumgyms.jpg": "/Humanes---Body-And-Soul/static/media/highpremiumgyms.4ab6972a702f589134ef.jpg",
+    "static/media/premiumgyms.jpg": "/Humanes---Body-And-Soul/static/media/premiumgyms.e259b48940cbe6fcdfcd.jpg",
+    "static/media/categorygyms.jpg": "/Humanes---Body-And-Soul/static/media/categorygyms.fb8840c10fbb91d8f5f8.jpg",
+    "static/media/standardgyms.jpg": "/Humanes---Body-And-Soul/static/media/standardgyms.be82fc711811c91594dc.jpg",
+    "static/media/gym3.jpg": "/Humanes---Body-And-Soul/static/media/gym3.e0eca92a49eb4210feaa.jpg",
+    "static/media/gym1.jpg": "/Humanes---Body-And-Soul/static/media/gym1.0d1aad52c78f3eb6fe1d.jpg",
+    "static/media/gym2.jpg": "/Humanes---Body-And-Soul/static/media/gym2.a724faa79f991691ce7d.jpg",
+    "static/media/humaneslogo.png": "/Humanes---Body-And-Soul/static/media/humaneslogo.17e317d35dd64906f1e4.png",
+    "static/media/categorytrainers.jpg": "/Humanes---Body-And-Soul/static/media/categorytrainers.f5bf5b36df21ffa2c54a.jpg",
+    "static/media/categorysupplements.jpg": "/Humanes---Body-And-Soul/static/media/categorysupplements.0f6083e93092fe380a78.jpg",
+    "static/media/categoryevents.jpg": "/Humanes---Body-And-Soul/static/media/categoryevents.9aacb94cd4456c4b06ef.jpg",
+    "index.html": "/Humanes---Body-And-Soul/index.html",
+    "main.a939a585.css.map": "/Humanes---Body-And-Soul/static/css/main.a939a585.css.map",
+    "main.9efbaabf.js.map": "/Humanes---Body-And-Soul/static/js/main.9efbaabf.js.map",
+    "787.8fd7ee04.chunk.js.map": "/Humanes---Body-And-Soul/static/js/787.8fd7ee04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a939a585.css",
+    "static/js/main.9efbaabf.js"
+  ]
+}
