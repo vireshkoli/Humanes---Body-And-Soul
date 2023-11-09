@@ -12,87 +12,12 @@
 .carouselcap{
     animation: carouselcap 2s ease;
 }
-@media (min-width: 200px) and (max-width: 415px){
-    .carousel-caption{
-        width: 70%;
-        background: rgb(47,46,46);
-        background: linear-gradient(86deg, rgba(28, 27, 27, 0.7) 25%, rgba(57, 59, 59, 0.7) 100%);
-        border-radius: 30px;
-        position: absolute;
-        bottom: 6vh;
-    }
-    .carousel-caption h1{
-        font-size: 18px;
-    }
-    .carousel-caption h4{
-        font-size: 12px;
-    }
-}
-
-@media (min-width: 415px) and (max-width: 600px){
-    .carousel-caption{
-        background: rgb(47,46,46);
-        background: linear-gradient(86deg, rgba(28, 27, 27, 0.7) 25%, rgba(57, 59, 59, 0.7) 100%);
-        border-radius: 30px;
-        position: absolute;
-        bottom: 11vh;
-    }
-    .carousel-caption h1{
-        font-size: 18px;
-    }
-    .carousel-caption h4{
-        font-size: 12px;
-    }
-    .carousel-caption a{
-        margin: 5px;
-    }
-}
-@media (min-width: 600px) and (max-width: 700px){
-    .carousel-caption{
-        background: rgb(47,46,46);
-        background: linear-gradient(86deg, rgba(28, 27, 27, 0.7) 25%, rgba(57, 59, 59, 0.7) 100%);
-        border-radius: 30px;
-        position: absolute;
-        bottom: 15vh;
-    }
-    .carousel-caption h1{
-        font-size: 24px;
-    }
-    .carousel-caption h4{
-        font-size: 15px;
-    }
-    .carousel-caption a{
-        margin: 5px;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 991px) {
-    
-    .carousel-caption{
-        background: rgb(47,46,46);
-        background: linear-gradient(86deg, rgba(28, 27, 27, 0.7) 25%, rgba(57, 59, 59, 0.7) 100%);
-        border-radius: 30px;
-        position: absolute;
-        bottom: 20vh;
-    }
-    .carousel-caption h1{
-        font-size: 35px;
-    }
-    .carousel-caption h4{
-        font-size: 18px;
-    }
-    .carousel-caption a{
-        margin: 10px;
-    }
-    .carousel .carousel-item .caption3 h1{
-        font-size: 32px;
-    }
-}
 
 @media (min-width: 992px) {
     .carousel-item{
         background-color: rgb(140, 135, 135);
-        height: 35rem;
+        height: 40rem;
+        position: relative;
     }
     .carousel-caption a{
         margin: 10px;
@@ -101,52 +26,84 @@
         color: white;
     }
     .caption1{
+        width: 40vw;
         position: absolute;
         right: 48vw;
-        bottom: 22vh;
+        bottom: 14rem;
+    }
+    .caption1 h1{
+        font-size: 3vw;
+        font-weight: bold;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    }
+    .caption1 h4{
+        font-size: 2vw;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
     .caption2{
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
         background: rgb(47,46,46);
-        background: linear-gradient(86deg, rgba(28, 27, 27, 0.7) 25%, rgba(18,20,20,0.7) 100%);
+        background: linear-gradient(86deg, rgba(28, 27, 27, 0.8) 25%, rgba(18,20,20,0.7) 100%);
         border-radius: 30px;
         position: absolute;
-        bottom: 20vh;
+        bottom: 13rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    .carousel .carousel-item .caption2{
+        height: 18vw;
+    }
     .caption3{
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
         background: rgb(47,46,46);
         background: linear-gradient(86deg, rgba(28, 27, 27, 0.8) 25%, rgba(18,20,20,0.7) 100%);
         border-radius: 20px;
-        border-style: double;
+        /* border-style: double; */
         position: absolute;
-        bottom: 22vh;
-        /* border: solid rgb(83, 80, 80); */
+        bottom: 13vw;
+    }
+    .carousel-caption h1{
+        font-size: 3vw;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    }
+    .carousel-caption h4{
+        font-size: 2vw;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
     
 }
-@media (min-width: 992px) and (max-width: 1360px) {
-    .carousel .carousel-item .caption1{
-        position: absolute;
-        left: 11vw;
-    }
-    .caption1 h1{
-        font-size: 33px;
-    }
-    .caption1 h4{
-        font-size: 22px;
-    }
-}
 
-@media (min-height: 1000px) {
+@media (max-width:992px) {
+    .carousel-item img{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
     .carousel-caption{
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        width: 70%;
+        padding: 10px;
         background: rgb(47,46,46);
-        background: linear-gradient(86deg, rgba(28, 27, 27, 0.7) 25%, rgba(57, 59, 59, 0.7) 100%);
+        background: linear-gradient(86deg, rgba(28, 27, 27, 0.8) 25%, rgba(57, 59, 59, 0.8) 100%);
         border-radius: 30px;
         position: absolute;
-        top: 13vh;
-        height: 14vh;
+        bottom: 11vw;
     }
-    .carousel .carousel-item .caption2{
-        height: 16vh;
+    .carousel-caption h1{
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+        margin-top: 10px;
+        font-size: 5vw;
+    }
+    .carousel-caption h4{
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+        font-size: 4vw;
+    }
+    .carousel-caption a{
+        margin: 5px;
+    }
+    .carousel .carousel-item .caption2 h4{
+        font-size: 2.7vw;
+        text-align:center;
+    }
+    .carousel .carousel-item .caption3 h1{
+        font-size: 4.3vw;
+
     }
 }

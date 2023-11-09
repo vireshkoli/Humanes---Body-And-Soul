@@ -1,11 +1,14 @@
 @media (min-width:992px) {
   .card{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #EDEDED;
     font-family: 'Geologica', sans-serif;
     height: auto;
     width: 80%;
     margin: auto;
     margin-top: 35px;
-    border-radius: 20px;
+    border-radius: 15px;
   }
   .cardimg{
     display: flex;
@@ -14,6 +17,7 @@
     border-radius: 20px;
   }
   .img-fluid{
+    width: 100%;
     border-radius: 20px;
   }
   .cardcontent{
@@ -29,6 +33,7 @@
     color: rgb(100, 99, 99);
   }
   .expbtn{
+    font-weight: bold;
     position: relative;
     width: 22%;
     border: solid rgb(46, 44, 44);
@@ -38,6 +43,7 @@
 
 @media (max-width:992px) {
   .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: row;
     font-family: 'Geologica', sans-serif;
@@ -89,6 +95,7 @@
     position: relative;
     width: 60%;
     font-size: 4vw;
+    font-weight: bold;
     border: 3px solid rgb(46, 44, 44);
     border-style: double;
   }

@@ -39,7 +39,7 @@ function Slider() {
           <div className="carousel-caption caption1 carouselcap">
             <h1>HUMANES - BODY & SOUL</h1>
             <h4>Feed Your Strength !</h4>
-            <a href="/" className="btn btn-outline-light btn-sm"><b>LEARN MORE</b></a>
+            <a href="/" className="btn btn-outline-light btn-md"><b>LEARN MORE</b></a>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="8000">
