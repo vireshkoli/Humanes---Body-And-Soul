@@ -30,9 +30,6 @@
   animation: fadeup 2s ease-out;
 }
 
-hr.splitline{
-  border: 3px double white;
-}
 @media (max-width: 992px) {
   .gymsheader {
     background-color: #171717;
@@ -63,6 +60,7 @@ hr.splitline{
     text-shadow: 4px 4px 4px rgb(0, 0, 0);
   }
   .catdesc h4 {
+    margin-top: 2vw;
     text-shadow: 4px 4px 4px rgb(0, 0, 0);
     font-size: 4.8vw;
   }
@@ -80,6 +78,35 @@ hr.splitline{
   }
   .catdesc p{
     margin-bottom: 0;
+  }
+  .gymsinfo img{
+    width: 42%;
+    height: auto;
+    margin: 9vw 5vw 5vw 2vw;
+    border-radius: 5px;
+  }
+  .gymsinfo{
+    display: flex;
+    align-items: center;
+  }
+  .gymsinfodesc{
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .gymsinfodesc ul{
+     padding-left: 2.5vw;
+  }
+  .gymsinfodesc h2{
+    margin-top: 3vw;
+    font-weight: bold;
+    font-size: 5vw;
+    text-shadow: 0.5px 0.5px 1.5px rgb(0, 0, 0);
+  }
+  .gymsinfodesc p{
+    margin-bottom: 5px;
+    font-size: 2.8vw;
+    font-weight: 500;
+    text-align:start;
   }
 }
 
@@ -118,5 +145,28 @@ hr.splitline{
     width: 70vw;
     justify-content: center;
     text-align: center;
+  }
+  .gymsinfo img{
+    width: 35%;
+    height: auto;
+    margin: 3vw 4vw 2vw 2vw;
+    border-radius: 10px;
+  }
+  .gymsinfo{
+    display: flex;
+    align-items: center;
+  }
+  .gymsinfodesc{
+    margin-left: 3vw;
+  }
+  .gymsinfodesc h2{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: 5vw;
+    margin-bottom: 1.5vw;
+  }
+  .gymsinfodesc p{
+    font-size: 1.5vw;
+    font-weight: 4px;
+    text-align: justify;
   }
 }

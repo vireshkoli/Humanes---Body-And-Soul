@@ -25,13 +25,14 @@
     font-size: 5vw;
   }
   .gymcardbody a {
+    margin-top: 3vw;
     width: 30vw;
   }
 }
 @media (min-width: 992px) {
   .gymcard {
     height: auto;
-    width: 85%;
+    width: 95%;
     margin: auto;
     margin-top: 40px;
     border-radius: 20px;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./CategoryGyms.css";
 import Gyms from "./Gyms"
+import gymsinfoimg from "./gymsinfoimg.jpg"
 import standardgyms from "./standardgyms.jpg"
 import premiumgyms from "./premiumgyms.jpg"
 import highpremiumgyms from "./highpremiumgyms.jpg"
@@ -13,6 +14,27 @@ function CategoryGyms() {
         <div className="catdesc fadeup">
           <h4>Looking For A Gym?</h4>
           <p>Here Are The Different Categories Of Gyms Based On Your Preferences!</p>
+        </div>
+      </div>
+      <div class="container-fluid gymsinfo">
+        <img src={gymsinfoimg} class="gymsinfoimg faderight" alt="..."/>
+        <div className="gymsinfodesc fadeleft">
+          <h2>Gyms Preferences</h2>
+          <ul>
+            <li>
+              <p>
+                Standard Gyms For Realible Gym Experience And Budget Friendly
+              </p>
+            </li>
+            <li>
+              <p>
+                Premium Gyms With Advanced Equipments And Guidance
+              </p>
+            </li>
+            <li>
+              <p>High Premium Gyms For The Best Gym Experience</p>
+            </li>
+          </ul>
         </div>
       </div>
       <Gyms cardimg={standardgyms} cardtitle="Standard Gyms" cardtext="10 - 15K" categorypath="/categorygyms/standardgyms"/>

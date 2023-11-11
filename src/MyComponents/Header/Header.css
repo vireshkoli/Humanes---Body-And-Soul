@@ -58,6 +58,8 @@
         margin-right: 8px;
     }
     .navbar-brand{
+        font-weight: 500;
+        text-shadow: 3px 3px 4px rgb(0, 0, 0);
         position: relative;
         right: 30px;
         top: 3px;
@@ -134,6 +136,8 @@
         transition: all .3s;
     }
     .navbar-brand{
+        font-weight: 500;
+        text-shadow: 3px 3px 4px rgb(0, 0, 0);
         position: relative;
         right: 28px;
     }

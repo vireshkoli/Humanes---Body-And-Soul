@@ -1,7 +1,10 @@
 import React from "react";
 import "./CategoryTrainers.css";
 import trainersinfoimg from "./trainersinfoimg.jpg";
-import Trainers from "./trainers"
+import personalimg from "./personalimg.jpg";
+import physioimg from "./physioimg.jpg";
+import chiropractorimg from "./chiropractorimg.jpg";
+import Trainers from "./trainers";
 
 function CategoryTrainers() {
   return (
@@ -14,16 +17,46 @@ function CategoryTrainers() {
         </div>
       </div>
       <div class="container-fluid trainersinfo">
-        <img src={trainersinfoimg} class="trainersinfoimg" alt="..." />
-        <div className="trainersinfodesc">
-        <h2>Train With The Best</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores autem aperiam reiciendis eos aut tempore ratione non vitae assumenda eaque ad dicta facere adipisci corrupti culpa magnam quod minus, beatae dolor fugiat sed, nihil voluptate!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam numquam, nihil repellat sint quae commodi, doloremque possimus maiores obcaecati illo sequi iste laudantium, tempora nemo iure non. Sequi, cum adipisci fugiat dolorum expedita iste debitis!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ipsam ut laudantium numquam fugit illo reiciendis ullam perferendis blanditiis rem.
-        </p>
+        <img src={trainersinfoimg} class="trainersinfoimg faderight" alt="..."/>
+        <div className="trainersinfodesc fadeleft">
+          <h2>Train With The Best</h2>
+          <ul>
+            <li>
+              <p>
+                Personalised Trainers With One To One Guidance And
+                Professionalised Feedback
+              </p>
+            </li>
+            <li>
+              <p>
+                Physio Therapists To Increase The Mobility And Eliminate
+                Unwanted Pain
+              </p>
+            </li>
+            <li>
+              <p>Chiropractors To Fix Your Joints</p>
+            </li>
+          </ul>
         </div>
       </div>
-        <Trainers cardimg={trainersinfoimg} cardtitle="Personal Trainers" cardtext="10 - 15K" categorypath="/categorytrainers/personaltrainers"/>
+      <Trainers
+        cardimg={personalimg}
+        cardtitle="Personal Trainers"
+        cardprice="10 - 15K"
+        categorypath="/categorytrainers/personaltrainers"
+      />
+      <Trainers
+        cardimg={physioimg}
+        cardtitle="Physio Therapists"
+        cardprice="5 - 10K"
+        categorypath="/categorytrainers/physiotherapists"
+      />
+      <Trainers
+        cardimg={chiropractorimg}
+        cardtitle="Chiropractors"
+        cardprice="10 - 15K"
+        categorypath="/categorytrainers/chiropractors"
+      />
     </>
   );
 }

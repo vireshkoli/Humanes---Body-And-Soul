@@ -8,7 +8,7 @@ function Slider() {
   return (
     <div
       id="carouselExampleCaptions"
-      className="carousel slide"
+      className="carousel slide" 
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">

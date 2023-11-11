@@ -57,7 +57,7 @@
         background: rgb(47,46,46);
         background: linear-gradient(86deg, rgba(28, 27, 27, 0.8) 25%, rgba(18,20,20,0.7) 100%);
         border-radius: 20px;
-        /* border-style: double; */
+        border-style: groove;
         position: absolute;
         bottom: 13vw;
     }
@@ -74,15 +74,16 @@
 
 @media (max-width:992px) {
     .carousel-item img{
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
     }
     .carousel-caption{
         box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
         width: 70%;
         padding: 10px;
         background: rgb(47,46,46);
-        background: linear-gradient(86deg, rgba(28, 27, 27, 0.8) 25%, rgba(57, 59, 59, 0.8) 100%);
+        background: linear-gradient(86deg, rgba(28, 27, 27, 0.7) 25%, rgba(57, 59, 59, 0.7) 100%);
         border-radius: 30px;
+        border-style:groove;
         position: absolute;
         bottom: 11vw;
     }
