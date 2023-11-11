@@ -2,6 +2,8 @@ import React from "react";
 import "./CategoryGyms.css";
 import Gyms from "./Gyms"
 import gymsinfoimg from "./gymsinfoimg.jpg"
+import gymsinfoimg2 from "./gymsinfoimg2.jpg"
+
 import standardgyms from "./standardgyms.jpg"
 import premiumgyms from "./premiumgyms.jpg"
 import highpremiumgyms from "./highpremiumgyms.jpg"
@@ -18,6 +20,7 @@ function CategoryGyms() {
       </div>
       <div class="container-fluid gymsinfo">
         <img src={gymsinfoimg} class="gymsinfoimg faderight" alt="..."/>
+        <img src={gymsinfoimg2} class="gymsinfoimg2 faderight" alt="..."/>
         <div className="gymsinfodesc fadeleft">
           <h2>Gyms Preferences</h2>
           <ul>

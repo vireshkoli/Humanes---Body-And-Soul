@@ -8,8 +8,21 @@
     opacity: 1;
   }
 }
+@keyframes faderightopacity {
+  from{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0px);
+    opacity: 0.8;
+  }
+}
 .faderight{
   animation: faderight 1.5s ease-in-out;
+}
+.faderightopacity{
+  animation: faderightopacity 1.5s ease-in-out;
 }
 @keyframes fadeleft {
   from{
@@ -61,26 +74,45 @@
         justify-content: center;
         text-align: center;
       }
-      .trainersinfo img{
-        width: 35%;
+      .trainersinfoimg{
+        display: flex;
+        position: absolute;
+        right: 13vw;
+        width: 33%;
         height: auto;
-        margin: 3vw 4vw 2vw 2vw;
-        border-radius: 10px;
+        margin: 9vw 5vw 5vw 2vw;
+        border-radius: 40px;
+        border-style:groove;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      }
+      .trainersinfoimg2{
+        display: flex;
+        position: relative;
+        left: 3vw;
+        opacity: 0.8;
+        width: 42%;
+        height: auto;
+        margin: 9vw 5vw 5vw 2vw;
+        border-radius: 40px;
+        border-style: groove;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
       }
       .trainersinfo{
         display: flex;
         align-items: center;
       }
       .trainersinfodesc{
-        margin-right: 30px;
+        margin-right: 3.5vw;
       }
       .trainersinfodesc h2{
+        text-shadow: 0.5px 0.5px 1.5px rgb(0, 0, 0);
         font-size: 5vw;
         margin-bottom: 1.5vw;
       }
       .trainersinfodesc p{
-        font-size: 1.5vw;
-        font-weight: 4px;
+        text-align: justify;
+        font-size: 2.1vw;
+        font-weight: 500;
         text-align: justify;
       }
 }
@@ -134,31 +166,49 @@
   .trainersdesc p{
     margin-bottom: 0;
   }
-  .trainersinfo img{
+  .trainersinfoimg{
+    display: flex;
+    position: absolute;
+    right: 13vw;
+    width: 33%;
+    height: auto;
+    margin: 9vw 5vw 5vw 2vw;
+    border-radius: 20px;
+    border-style:groove;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .trainersinfoimg2{
+    display: flex;
+    position: relative;
+    left: 2.5vw;
+    opacity: 0.8;
     width: 42%;
     height: auto;
     margin: 9vw 5vw 5vw 2vw;
-    border-radius: 5px;
+    border-radius: 40px;
+    border-style: groove;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
   .trainersinfo{
     display: flex;
     align-items: center;
   }
   .trainersinfodesc{
-    margin-right: 10px;
+    margin-right: 2.5vw;
     margin-top: 20px;
   }
   .trainersinfodesc ul{
-     padding-left: 2.5vw;
+     padding-left: 3.5vw;
   }
   .trainersinfodesc h2{
+    margin-left: 2.6vw;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 4.4vw;
     text-shadow: 0.5px 0.5px 1.5px rgb(0, 0, 0);
   }
   .trainersinfodesc p{
     margin-bottom: 5px;
-    font-size: 2.8vw;
+    font-size: 2.6vw;
     font-weight: 500;
     text-align:start;
   }

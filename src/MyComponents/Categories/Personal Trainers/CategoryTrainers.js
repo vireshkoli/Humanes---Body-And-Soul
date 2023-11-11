@@ -1,6 +1,9 @@
 import React from "react";
 import "./CategoryTrainers.css";
+
 import trainersinfoimg from "./trainersinfoimg.jpg";
+import trainersinfoimg2 from "./trainersinfoimg2.jpg";
+
 import personalimg from "./personalimg.jpg";
 import physioimg from "./physioimg.jpg";
 import chiropractorimg from "./chiropractorimg.jpg";
@@ -17,7 +20,6 @@ function CategoryTrainers() {
         </div>
       </div>
       <div class="container-fluid trainersinfo">
-        <img src={trainersinfoimg} class="trainersinfoimg faderight" alt="..."/>
         <div className="trainersinfodesc fadeleft">
           <h2>Train With The Best</h2>
           <ul>
@@ -38,6 +40,8 @@ function CategoryTrainers() {
             </li>
           </ul>
         </div>
+        <img src={trainersinfoimg2} class="trainersinfoimg2 faderightopacity" alt="..."/>
+        <img src={trainersinfoimg} class="trainersinfoimg faderight" alt="..."/>
       </div>
       <Trainers
         cardimg={personalimg}
