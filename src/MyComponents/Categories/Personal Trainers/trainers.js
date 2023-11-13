@@ -8,7 +8,7 @@ function trainers(props) {
         <div className="col-md-4 trainercardimg">
           <img src={props.cardimg} className="img-fluid" alt="cardimg" />
         </div>
-        <div className="col-md-9 cardcontent">
+        <div className="col-md-8 cardcontent">
           <div className="card-body trainercardbody">
             <div className="cardesc">
               <h5 className="card-title trainercardtitle">{props.cardtitle}</h5>
