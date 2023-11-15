@@ -18,9 +18,9 @@ function CategoryGyms() {
           <p>Here Are The Different Categories Of Gyms Based On Your Preferences!</p>
         </div>
       </div>
-      <div class="container-fluid gymsinfo">
-        <img src={gymsinfoimg} class="gymsinfoimg faderight" alt="..."/>
-        <img src={gymsinfoimg2} class="gymsinfoimg2 faderight" alt="..."/>
+      <div className="container-fluid gymsinfo">
+        <img src={gymsinfoimg} className="gymsinfoimg faderight" alt="..."/>
+        <img src={gymsinfoimg2} className="gymsinfoimg2 faderight" alt="..."/>
         <div className="gymsinfodesc fadeleft">
           <h2>Gyms Preferences</h2>
           <ul>

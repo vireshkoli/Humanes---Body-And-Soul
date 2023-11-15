@@ -4,8 +4,8 @@ import warriorfitness from "./warriorfitness.jpg"
 import warriorfitnessdrop from "./warriorfitnessdrop.jpg"
 
 
-export const Gymdata = {
-    fitnessforever : {
+export const STDGYMDATA = [
+    {
         logo: fitnessforever,
         title: "Fitness Forever Gym",
         description: "A great place to work out and stay in shape!",
@@ -14,7 +14,7 @@ export const Gymdata = {
         address: "Malwani Church, Malad West",
         specifications : "Join Fitness Forever for a fit and healthy lifestyle! Our 24/7 gym offers top-notch equipment, expert trainers, and a welcoming atmosphere for all fitness levels. Get started on your journey to a stronger you now!"
     },
-    warriorfitness : {
+    {
         logo: warriorfitness,
         title: "Warrior Fitness Club",
         description: "Gym who want a challenging workout.",
@@ -23,4 +23,4 @@ export const Gymdata = {
         address: "Malwani Church, Malad West",
         specifications : "Join Fitness Forever for a fit and healthy lifestyle! Our 24/7 gym offers top-notch equipment, expert trainers, and a welcoming atmosphere for all fitness levels. Get started on your journey to a stronger you now!"
     }
-}
+]

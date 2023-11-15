@@ -13,8 +13,7 @@ function Gyms(props) {
             <div className="cardesc">
               <h5 className="card-title gymcardtitle">{props.cardtitle}</h5>
               <p className="card-text gymcardtext">
-              <i class="fa-regular fa-money-bill-1"></i>
-                <b>{props.cardtext}</b>
+                {/* Price Section */}
               </p>
             </div>
             <a
