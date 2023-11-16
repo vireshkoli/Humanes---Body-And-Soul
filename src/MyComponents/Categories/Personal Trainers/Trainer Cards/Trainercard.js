@@ -2,7 +2,7 @@ import React from "react";
 import "./Trainercard.css";
 import down from "./down.png";
 import phone from "./phone.png";
-import info from "./info.png";
+import play from "./play.png";
 import left from "./left.png";
 import right from "./right.png";
 import cross from "./cross.png";
@@ -73,7 +73,7 @@ function Trainercard(props) {
           <div className="contact">
             <img className="phone" src={phone} alt="" />
             <button onClick={swapcontent}>
-              <img className="info" src={info} alt="" />
+              <img className="intro" src={play} alt="" />
             </button>
           </div>
         </div>

@@ -45,8 +45,8 @@
         bottom: 4vw;
         margin-bottom: 0;
     }
-    .contact .info{
-        width: 11.5vw;
+    .contact .intro{
+        width: 12.5vw;
     }
     .contact button{
         background: none;
@@ -123,6 +123,7 @@
         padding: 2vw;
     }
     .cross{
+        width: 100%;
         background: none;
         border: none;
         cursor: pointer;
