@@ -1,27 +1,52 @@
 import React from "react";
 import "./Gymscard.css";
 import down from "./down.png";
+import left from "./left.png";
+import right from "./right.png";
 import { useState } from "react";
 
 function Gymcard(props) {
   const [dropcontent, setdropcontent] = useState(false);
+  const [gymindex, setgymindex] = useState(0);
+
   function dropbtn() {
     setdropcontent(!dropcontent);
+  }
+
+  function changegymimg() {
+    if (gymindex < 2) {
+      setgymindex((gymindex) => gymindex + 1);
+    } else {
+      setgymindex(0);
+    }
   }
 
   let extended = "";
   if (dropcontent === true) {
     extended = (
       <div className="gymdropcontent">
-        <img src={props.dropimg} alt="" />
+        <p className="dropimagehead">{props.gymtitle}</p>
+        <div className="gymimages">
+          <div className="gymleft">
+            <button onClick={changegymimg}>
+              <img src={left} alt="" />
+            </button>
+          </div>
+          <img src={props.gymdropimg[gymindex]} alt="" />
+          <div className="gymright">
+            <button onClick={changegymimg}>
+              <img src={right} alt="" />
+            </button>
+          </div>
+        </div>
         <div className="gymdropdesc">
           <p>
-            <b>Address</b> : {props.address}
+            <b>Address</b> : {props.gymaddress}
           </p>
           <p>
-            <b>Specifications</b> : {props.specifications}
+            <b>Specifications</b> : {props.gymspecifications}
           </p>
-          <p className="gymcardprice"><b>{props.price}</b></p>
+          <p className="gymcardprice"><b>{props.gymprice}</b></p>
           <div className="enroll">
             <a className="enrollbtn" href="/">
               ENROLL NOW
@@ -34,10 +59,10 @@ function Gymcard(props) {
   return (
     <div className="card gymdetailcard">
       <div className="gymdetailupper">
-        <img src={props.logo} className="card-img-top" alt="cardimg" />
+        <img src={props.gymlogo} className="card-img-top" alt="cardimg" />
         <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
-          <p className="card-text">{props.description}</p>
+          <h5 className="card-title">{props.gymtitle}</h5>
+          <p className="card-text">{props.gymdescription}</p>
         </div>
       </div>
       <hr className="gymcardseparator"/>
