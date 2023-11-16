@@ -27,14 +27,14 @@
         border-width: 5px;
         border-color: rgb(110, 110, 108)
     }
-    .card-body{
+    .trainerdetailbody{
         width: 55%;
         display: flex;
         align-items: center;
         justify-content: center;
         padding-right: 0;
     }
-    .card-body img{
+    .trainerdetailbody img{
         width: 30%;
     }
     .card-text{
@@ -44,6 +44,13 @@
         position: relative;
         bottom: 4vw;
         margin-bottom: 0;
+    }
+    .contact .info{
+        width: 11.5vw;
+    }
+    .contact button{
+        background: none;
+        border: none;
     }
     .trainerdownbtn{
         position: relative;
@@ -76,6 +83,7 @@
         position: relative;
     }
     .transformations button{
+        box-shadow: none;
         border: none;
         background: none;
     }
@@ -110,5 +118,21 @@
         height: 10vw;
         background-color: black;
         color: white;
+    }
+    .trainerintro{
+        padding: 2vw;
+    }
+    .cross{
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        justify-content: flex-end;
+        padding: 2vw;
+    }
+    .cross img{
+        width: 10%;
+        height: auto;
     }
 }
