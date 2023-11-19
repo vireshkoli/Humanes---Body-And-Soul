@@ -1,9 +1,13 @@
 import React from "react";
+import "./CategorySupplements.css"
 import supplementsslider1 from "./supplementsslider1.jpg";
 import supplementsslider2 from "./supplementsslider2.jpg";
 
+import ProductCard from "./Products/ProductCard"
+
 function CategorySupplements() {
   return (
+    <>
     <div
       id="carouselExampleIndicators"
       className="carousel slide"
@@ -61,6 +65,15 @@ function CategorySupplements() {
         <span className="visually-hidden">Next</span>
       </button>
     </div>
+    <div className="products">
+        <div className="productheader">
+          <h3>Our Products</h3>
+          <div className="productgrid">
+            <ProductCard/>
+          </div>
+        </div>
+    </div>
+    </>
   );
 }
 
