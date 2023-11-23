@@ -1,9 +1,14 @@
 .productheader{
     background-color: black;
+<<<<<<< HEAD
     height: 5rem;
     color: white;
     display: flex;
     flex-direction: column;
+=======
+    color: white;
+    display: flex;
+>>>>>>> 0f79ae9579ec480a337068da5e634d3a090845f5
     align-items: center;
     justify-content: center;
 }

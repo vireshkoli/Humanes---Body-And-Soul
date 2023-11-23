@@ -4,7 +4,10 @@ import supplementsslider1 from "./supplementsslider1.jpg";
 import supplementsslider2 from "./supplementsslider2.jpg";
 
 import ProductCard from "./Products/ProductCard"
+<<<<<<< HEAD
 import {PRODUCTDATA} from "./Product Data/Data"
+=======
+>>>>>>> 0f79ae9579ec480a337068da5e634d3a090845f5
 
 function CategorySupplements() {
   return (
@@ -69,12 +72,19 @@ function CategorySupplements() {
     <div className="products">
         <div className="productheader">
           <h3>Our Products</h3>
+<<<<<<< HEAD
         </div>
           <div className="productgrid">
             {PRODUCTDATA.map((productitem) => (
               <ProductCard {...productitem} />
             ))}
           </div>
+=======
+          <div className="productgrid">
+            <ProductCard/>
+          </div>
+        </div>
+>>>>>>> 0f79ae9579ec480a337068da5e634d3a090845f5
     </div>
     </>
   );
