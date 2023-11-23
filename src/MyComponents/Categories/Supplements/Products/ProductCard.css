@@ -1,0 +1,59 @@
+@media (max-width:992px) {
+    .productcard{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .productcard img{
+        width: 100%;
+        height: auto;
+        border-radius: 20vw;
+    }
+    .productcardbody img{
+        width: 5vw;
+    }
+    .productrating{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .productrating p{
+        font-size: 4vw;
+        margin: 0;
+        margin-left: 6px;
+    }
+    .productcardbody{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 5vw;
+    }
+    .productcategory{
+        color: gray;
+        margin-bottom: 2vw;
+    }
+    .productcardbody h3{
+        text-align: start;
+        margin-bottom: 1.5vw;
+        font-size: 5vw;
+    }
+    .productrating{
+        margin-bottom: 4vw;
+    }
+    .likebtn{
+        width: 100%;
+        position: absolute;
+        display: flex;
+        left: 85%;
+        bottom: 3%;
+    }
+    .likebtn button{
+        border: none;
+        background: none;
+    }
+    .likebtn img{
+        width: 8vw;
+    }
+}
