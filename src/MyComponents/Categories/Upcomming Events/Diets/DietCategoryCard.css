@@ -1,0 +1,17 @@
+.dietcategorycard{
+    height: 80vw;
+    display: flex;
+    align-items: center;
+}
+.dietcategoryimg{
+    padding-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dietcategoryimg img{
+    width: 20%;
+}
+.dietcategorybtn{
+    width: 60%;
+}

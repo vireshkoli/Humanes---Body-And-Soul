@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./MyComponents/Header/Header";
 import Slider from "./MyComponents/Slider/Slider";
 
+//Main Category Data
 import Category from "./MyComponents/Categories/Category";
 import categorygyms from "./MyComponents/Categories/categorygyms.jpg";
 import categorytrainers from "./MyComponents/Categories/categorytrainers.jpg";
@@ -14,6 +15,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import About from "./MyComponents/About/About";
 
+//Sub Categories
 import CategoryGyms from "./MyComponents/Categories/Gym Categories/CategoryGyms";
 import Standard from "./MyComponents/Categories/Gym Categories/GymsData/Standard";
 
@@ -21,6 +23,9 @@ import CategoryTrainers from "./MyComponents/Categories/Personal Trainers/Catego
 import Personal from "./MyComponents/Categories/Personal Trainers/Trainer Data/Personal";
 
 import CategorySupplements from "./MyComponents/Categories/Supplements/CategorySupplements"
+
+import CategoryEvents from "./MyComponents/Categories/Upcomming Events/CategoryEvents"
+
 
 function App() {
   return (
@@ -66,6 +71,8 @@ function App() {
           <Route exact path="/categorytrainers/personaltrainers" element={<Personal />}></Route>
 
           <Route exact path="/categorysupplements" element={<CategorySupplements />}></Route>
+
+          <Route exact path="/categoryevents" element={<CategoryEvents />}></Route>
 
           <Route exact path="/about" element={<About />}></Route>
         </Routes>

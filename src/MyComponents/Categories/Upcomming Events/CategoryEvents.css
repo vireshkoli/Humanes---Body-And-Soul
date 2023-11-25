@@ -1,0 +1,10 @@
+@media (max-width:992px) {
+    .eventheader{
+        background-color: black;
+        color: white;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

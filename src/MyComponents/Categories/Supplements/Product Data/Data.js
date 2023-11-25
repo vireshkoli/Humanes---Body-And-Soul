@@ -12,7 +12,7 @@ export const PRODUCTDATA = [
     {
         productimage : benchpress,
         productcategory : "EQUIPMENT",
-        producttitle : "Bench Press Prime",
+        producttitle : "Bench Press Prime 320JK Premium",
         productrating : "4.6",
         productprice : "10999 Rs"
     }

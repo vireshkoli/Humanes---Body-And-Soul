@@ -2,13 +2,15 @@
     .productcard{
         color: black;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-bottom: 20px;
+        height: 60vw;
+        align-items: center;
     }
     .productcard img{
-        width: 100%;
+        object-fit:contain;
+        width: 50%;
         height: auto;
-        border-radius: 20vw;
     }
     .productcardbody img{
         width: 5vw;
@@ -28,16 +30,19 @@
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        padding-left: 5vw;
+        padding-left: 1vw;
     }
     .productcategory{
         color: gray;
-        margin-bottom: 2vw;
+        margin-bottom: 1vw;
     }
     .productcardbody h3{
         text-align: start;
         margin-bottom: 1.5vw;
-        font-size: 5vw;
+        font-size: 4vw;
+    }
+    .productcardbody h4{
+        font-size: 4.5vw;
     }
     .productrating{
         margin-bottom: 4vw;
