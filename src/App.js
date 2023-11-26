@@ -25,6 +25,7 @@ import Personal from "./MyComponents/Categories/Personal Trainers/Trainer Data/P
 import CategorySupplements from "./MyComponents/Categories/Supplements/CategorySupplements"
 
 import CategoryEvents from "./MyComponents/Categories/Upcomming Events/CategoryEvents"
+import VegDiet from "./MyComponents/Categories/Upcomming Events/Diets data/VegDiet";
 
 
 function App() {
@@ -73,6 +74,7 @@ function App() {
           <Route exact path="/categorysupplements" element={<CategorySupplements />}></Route>
 
           <Route exact path="/categoryevents" element={<CategoryEvents />}></Route>
+          <Route exact path="/categoryevents/vegdiet" element={<VegDiet />}></Route>
 
           <Route exact path="/about" element={<About />}></Route>
         </Routes>
