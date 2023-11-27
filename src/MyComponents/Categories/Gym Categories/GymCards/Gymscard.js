@@ -59,8 +59,8 @@ function Gymcard(props) {
   return (
     <div className="card gymdetailcard">
       <div className="gymdetailupper">
-        <img src={props.gymlogo} className="card-img-top" alt="cardimg" />
-        <div className="card-body">
+        <img src={props.gymlogo} className="card-img-top gymlogo" alt="cardimg" />
+        <div className="card-body gymbody">
           <h5 className="card-title">{props.gymtitle}</h5>
           <p className="card-text">{props.gymdescription}</p>
         </div>

@@ -87,3 +87,106 @@
         color: white;
     }
 }
+
+@media (min-width:992px) {
+    .gymdetailcard{
+        position: relative;
+        width: 30%;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        transition: all 1s ease-in-out;
+    }
+    .gymdetailupper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gymdetailcard img{
+        object-fit:contain;
+        width: 45%;
+        height: auto;
+        border-radius: 2vw;
+    }
+    .gymlogo{
+        padding: 1vw;
+    }
+    .gymbody{
+        padding-left: 0;
+    }
+    .gymbody h5{
+        font-size: 2vw;
+    }
+    .gymdetailcard hr{
+        position: relative;
+        margin-bottom: 0;
+    }
+    .gymdownbtn{
+        position: relative;
+        padding: 0;
+        border: none;
+        background: none;
+    }
+    .gymdownbtn img{
+        width: 15%;
+        height: auto;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .gymimages{
+        position: relative;
+    }
+    .gymimages button{
+        box-shadow: none;
+        border: none;
+        background: none;
+    }
+    .dropimagehead{
+        font-size: 2vw;
+    }
+    .gymdropcontent{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vw;
+        padding-top: 0;
+    }
+    .gymdropcontent img{
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .gymleft{
+        display: flex;
+        position: absolute;
+        width: 4vw;
+        top: 36%;
+    }
+    .gymright{
+        display: flex;
+        position: absolute;
+        width: 4vw;
+        bottom: 37%;
+        right: 0%;
+    }
+    .gymdropdesc{
+        text-align: center;
+        margin-top: 3vw;
+    }
+    .gymcardprice{
+        font-size: 2vw;
+        font-weight: bold;
+    }
+    .enroll a{
+        border-radius: 20px;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 3vw;
+        background-color: black;
+        color: white;
+    }
+}
