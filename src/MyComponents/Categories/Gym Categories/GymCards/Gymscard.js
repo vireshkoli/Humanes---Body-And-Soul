@@ -3,6 +3,7 @@ import "./Gymscard.css";
 import down from "./down.png";
 import left from "./left.png";
 import right from "./right.png";
+import phone from "./phone.png"
 import { useState } from "react";
 
 function Gymcard(props) {
@@ -44,13 +45,17 @@ function Gymcard(props) {
             <b>Address</b> : {props.gymaddress}
           </p>
           <p>
+            <b>Our Services</b> : {props.gymservices}
+          </p>
+          <p>
             <b>Specifications</b> : {props.gymspecifications}
           </p>
           <p className="gymcardprice"><b>{props.gymprice}</b></p>
-          <div className="enroll">
+          <div className="gymcontact">
             <a className="enrollbtn" href="/">
               ENROLL NOW
             </a>
+            <button><img src={phone} alt="" /></button>
           </div>
         </div>
       </div>

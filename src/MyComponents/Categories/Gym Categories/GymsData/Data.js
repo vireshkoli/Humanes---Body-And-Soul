@@ -15,6 +15,7 @@ export const STDGYMDATA = [
         gymprice: "$1000 /month",
         gymdropimg: [fitnessforeverdrop1, fitnessforeverdrop2, fitnessforeverdrop3],
         gymaddress: "Malwani Church, Malad West",
+        gymservices: "Cardio, Cross Fit, Martial Art, Body Building, Dynamic Training, Diet Nairation",
         gymspecifications : "Join Fitness Forever for a fit and healthy lifestyle! Our 24/7 gym offers top-notch equipment, expert trainers, and a welcoming atmosphere for all fitness levels. Get started on your journey to a stronger you now!"
     },
     {
@@ -24,6 +25,7 @@ export const STDGYMDATA = [
         gymprice: "$850/ month",
         gymdropimg: [warriorfitnessdrop1, fitnessforeverdrop2, fitnessforeverdrop3],
         gymaddress: "Malwani Church, Malad West",
+        gymservices: "Cardio, Cross Fit, Martial Art, Body Building, Dynamic Training, Diet Nairation",
         gymspecifications : "Join Fitness Forever for a fit and healthy lifestyle! Our 24/7 gym offers top-notch equipment, expert trainers, and a welcoming atmosphere for all fitness levels. Get started on your journey to a stronger you now!"
     },
     {
@@ -33,6 +35,7 @@ export const STDGYMDATA = [
         gymprice: "$1000 /month",
         gymdropimg: [fitnessforeverdrop1, fitnessforeverdrop2, fitnessforeverdrop3],
         gymaddress: "Malwani Church, Malad West",
+        gymservices: "Cardio, Cross Fit, Martial Art, Body Building, Dynamic Training, Diet Nairation",
         gymspecifications : "Join Fitness Forever for a fit and healthy lifestyle! Our 24/7 gym offers top-notch equipment, expert trainers, and a welcoming atmosphere for all fitness levels. Get started on your journey to a stronger you now!"
     },
     {
@@ -42,6 +45,7 @@ export const STDGYMDATA = [
         gymprice: "$850/ month",
         gymdropimg: [warriorfitnessdrop1, fitnessforeverdrop2, fitnessforeverdrop3],
         gymaddress: "Malwani Church, Malad West",
+        gymservices: "Cardio, Cross Fit, Martial Art, Body Building, Dynamic Training, Diet Nairation",
         gymspecifications : "Join Fitness Forever for a fit and healthy lifestyle! Our 24/7 gym offers top-notch equipment, expert trainers, and a welcoming atmosphere for all fitness levels. Get started on your journey to a stronger you now!"
     },
     
