@@ -1,5 +1,7 @@
 import muscleblazeprotein from "./muscleblazeprotein.jpg"
-import benchpress from "./benchpress.jpg"
+import wristbands from "./wristbands.jpg"
+import handgrip from "./handgrip.jpg"
+import creatine from "./creatine.jpg"
 
 export const PRODUCTDATA = [
     {
@@ -10,10 +12,24 @@ export const PRODUCTDATA = [
         productprice : "3500 Rs"
     },
     {
-        productimage : benchpress,
-        productcategory : "EQUIPMENT",
-        producttitle : "Bench Press Prime 320JK Premium",
+        productimage : wristbands,
+        productcategory : "ACCESSORIES",
+        producttitle : "Boldfit Cotton Wrist Band for Men & Women",
         productrating : "4.6",
-        productprice : "10999 Rs"
+        productprice : "399 Rs"
+    },
+    {
+        productimage : handgrip,
+        productcategory : "ACCESSORIES",
+        producttitle : "Boldfit Adjustable Hand Grip Strengthener",
+        productrating : "4.6",
+        productprice : "195 Rs"
+    },
+    {
+        productimage : creatine,
+        productcategory : "SUPPLEMENTS",
+        producttitle : "GNC Pro Performance Creatine Monohydrate | 100 gm | 33 Servings |",
+        productrating : "4.7",
+        productprice : "499 Rs"
     }
 ]

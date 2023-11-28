@@ -1,16 +1,15 @@
 import React from 'react'
-import "./VegDiet.css"
+import "./DietsContainer.css"
 import DietCard from "../Diets/DietCard"
-import { VEGDIETDATA } from './Data'
 
-function VegDiet() {
+function DietsContainer(props) {
   return (
     <div className="meals">
-        {VEGDIETDATA.map((mealitem) => (
+        {(props.dietsdata).map((mealitem) => (
             <DietCard {...mealitem}/>
         ))}
     </div>
   )
 }
 
-export default VegDiet
+export default DietsContainer

@@ -16,16 +16,19 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import About from "./MyComponents/About/About";
 
 //Sub Categories
+import { HIGHPREGYMDATA, PREGYMDATA, STDGYMDATA } from "./MyComponents/Categories/Gym Categories/GymsData/Data";
 import CategoryGyms from "./MyComponents/Categories/Gym Categories/CategoryGyms";
-import Standard from "./MyComponents/Categories/Gym Categories/GymsData/Standard";
+import GymsContainer from "./MyComponents/Categories/Gym Categories/GymsData/GymsContainer";
 
+import { PERSONALDATA, PHYSIODATA, CHIRODATA } from "./MyComponents/Categories/Personal Trainers/Trainer Data/Data";
 import CategoryTrainers from "./MyComponents/Categories/Personal Trainers/CategoryTrainers";
-import Personal from "./MyComponents/Categories/Personal Trainers/Trainer Data/Personal";
+import TrainersContainer from "./MyComponents/Categories/Personal Trainers/Trainer Data/TrainersContainer";
 
 import CategorySupplements from "./MyComponents/Categories/Supplements/CategorySupplements"
 
 import CategoryEvents from "./MyComponents/Categories/Upcomming Events/CategoryEvents"
-import VegDiet from "./MyComponents/Categories/Upcomming Events/Diets data/VegDiet";
+import DietsContainer from "./MyComponents/Categories/Upcomming Events/Diets data/DietsContainer";
+import { JAINDIETDATA, NONVEGDIETDATA, VEGDIETDATA } from "./MyComponents/Categories/Upcomming Events/Diets data/Data";
 
 
 function App() {
@@ -65,16 +68,23 @@ function App() {
               />
             </>}
           ></Route>
+
           <Route exact path="/categorygyms" element={<CategoryGyms />}></Route>
-          <Route exact path="/categorygyms/standardgyms" element={<Standard />}></Route>
+          <Route exact path="/categorygyms/standardgyms" element={<GymsContainer gymscontainertitle="Hi I Am Standard Gyms" gymsdata={STDGYMDATA}/>}></Route>
+          <Route exact path="/categorygyms/premiumgyms" element={<GymsContainer gymscontainertitle="Hi I Am Premium Gyms" gymsdata={PREGYMDATA}/>}></Route>
+          <Route exact path="/categorygyms/highpremiumgyms" element={<GymsContainer gymscontainertitle="Hi I Am High Premium Gyms" gymsdata={HIGHPREGYMDATA}/>}></Route>
 
           <Route exact path="/categorytrainers" element={<CategoryTrainers />}></Route>
-          <Route exact path="/categorytrainers/personaltrainers" element={<Personal />}></Route>
+          <Route exact path="/categorytrainers/personaltrainers" element={<TrainersContainer trainerscontainertitle="Hi I Am Personal Trainers" trainersdata={PERSONALDATA}/>}></Route>
+          <Route exact path="/categorytrainers/physiotherapists" element={<TrainersContainer trainerscontainertitle="Hi I Am Physio Therapist" trainersdata={PHYSIODATA}/>}></Route>
+          <Route exact path="/categorytrainers/chiropractors" element={<TrainersContainer trainerscontainertitle="Hi I Am Chiro Practor" trainersdata={CHIRODATA}/>}></Route>
 
           <Route exact path="/categorysupplements" element={<CategorySupplements />}></Route>
 
           <Route exact path="/categoryevents" element={<CategoryEvents />}></Route>
-          <Route exact path="/categoryevents/vegdiet" element={<VegDiet />}></Route>
+          <Route exact path="/categoryevents/vegdiet" element={<DietsContainer dietsdata={VEGDIETDATA} />}></Route>
+          <Route exact path="/categoryevents/nonvegdiet" element={<DietsContainer dietsdata={NONVEGDIETDATA} />}></Route>
+          <Route exact path="/categoryevents/jaindiet" element={<DietsContainer dietsdata={JAINDIETDATA} />}></Route>
 
           <Route exact path="/about" element={<About />}></Route>
         </Routes>

@@ -12,6 +12,9 @@
         width: 50%;
         height: auto;
     }
+    .productimage{
+        padding: 3vw;
+    }
     .productcardbody img{
         width: 5vw;
     }

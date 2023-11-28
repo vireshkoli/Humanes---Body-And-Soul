@@ -12,14 +12,14 @@ function CategorySupplements() {
   return (
     <>
       <div
-        id="carouselExampleIndicators"
+        id="carouselExampleCaptions"
         className="carousel slide"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators">
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
             className="active"
             aria-current="true"
@@ -27,13 +27,13 @@ function CategorySupplements() {
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
@@ -41,6 +41,10 @@ function CategorySupplements() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={supplementsslider1} className="d-block w-100" alt="..." />
+            <div className="starterpack">
+              <h2>STARTER PACK</h2>
+              <button className="starterbuy">BUY NOW</button>
+            </div>
           </div>
           <div className="carousel-item">
             <img src={supplementsslider2} className="d-block w-100" alt="..." />
@@ -52,7 +56,7 @@ function CategorySupplements() {
         <button
           className="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
           <span
@@ -64,7 +68,7 @@ function CategorySupplements() {
         <button
           className="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
           <span
@@ -77,21 +81,21 @@ function CategorySupplements() {
       <div className="products">
         <div className="productheader">
           <h3>Our Products</h3>
-          <form class="d-flex productsearch">
+          <form className="d-flex productsearch">
             <input
-              class="form-control me-2"
+              className="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-light" type="submit">
+            <button className="btn btn-outline-light" type="submit">
               <img src={search} alt="search" />
             </button>
           </form>
         </div>
-        <div class="dropdown filter">
+        <div className="dropdown filter">
           <button
-            class="btn btn-light dropdown-toggle"
+            className="btn btn-light dropdown-toggle"
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
@@ -99,19 +103,19 @@ function CategorySupplements() {
           >
             Product Filter
           </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li>
-              <a class="dropdown-item" href="#">
+              <a className="dropdown-item" href="#">
                 Category
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <a className="dropdown-item" href="#">
                 Price
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <a className="dropdown-item" href="#">
                 Rating
               </a>
             </li>
