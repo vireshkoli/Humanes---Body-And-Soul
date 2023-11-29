@@ -62,7 +62,7 @@ function Gymcard(props) {
     );
   }
   return (
-    <div className="card gymdetailcard">
+    <div className="card gymdetailcard" data-aos="fade-left" data-aos-duration="1000">
       <div className="gymdetailupper">
         <img src={props.gymlogo} className="card-img-top gymlogo" alt="cardimg" />
         <div className="card-body gymbody">

@@ -6,7 +6,10 @@ function TrainersContainer(props) {
   return (
     <>
       <div className="trainerscontainer">
-        {props.trainerscontainertitle}
+        <h2 className="cattitle floattitle">{props.trainerscontainertitle}</h2>
+        <div className="catdesc fadeup">
+          <h4>{props.trainerscontainerdesc}</h4>
+        </div>
       </div>
       <div className="gymcards">
         {(props.trainersdata).map((item) => (<Trainercard {...item}/>))}

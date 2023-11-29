@@ -17,6 +17,10 @@
         height: auto;
         border-radius: 10vw;
     }
+    .gymlogo{
+        padding: 3vw;
+        margin-bottom: 2vw;
+    }
     .gymdetailcard hr{
         position: relative;
         bottom: 6vw;

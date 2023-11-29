@@ -6,9 +6,13 @@ function GymsContainer(props) {
   return (
     <>
       <div className="gymscontainer">
-        {props.gymscontainertitle}
+        <h2 className="cattitle floattitle">{props.gymscontainertitle}</h2>
+        <div className="catdesc fadeup">
+          <h4>{props.gymscontainerdesctitle}</h4>
+          <p>{props.gymscontainerdesc}</p>
+        </div>
       </div>
-      <div className="gymcards">
+      <div className="gymcards" data-aos="fade-left" data-aos-duration="1000">
         {(props.gymsdata).map((item) => (<Gymscard key={item.title} {...item} />))}
       </div>
     </>

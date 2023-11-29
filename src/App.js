@@ -20,9 +20,9 @@ import { HIGHPREGYMDATA, PREGYMDATA, STDGYMDATA } from "./MyComponents/Categorie
 import CategoryGyms from "./MyComponents/Categories/Gym Categories/CategoryGyms";
 import GymsContainer from "./MyComponents/Categories/Gym Categories/GymsData/GymsContainer";
 
-import { PERSONALDATA, PHYSIODATA, CHIRODATA } from "./MyComponents/Categories/Personal Trainers/Trainer Data/Data";
-import CategoryTrainers from "./MyComponents/Categories/Personal Trainers/CategoryTrainers";
-import TrainersContainer from "./MyComponents/Categories/Personal Trainers/Trainer Data/TrainersContainer";
+import { PERSONALDATA, PHYSIODATA, CHIRODATA } from "./MyComponents/Categories/Wellness Professionals/Trainer Data/Data";
+import CategoryTrainers from "./MyComponents/Categories/Wellness Professionals/CategoryTrainers";
+import TrainersContainer from "./MyComponents/Categories/Wellness Professionals/Trainer Data/TrainersContainer";
 
 import CategorySupplements from "./MyComponents/Categories/Supplements/CategorySupplements"
 
@@ -42,6 +42,7 @@ function App() {
             path="/"
             element={<>
               <Slider />
+
               <Category
                 cardimg={categorygyms}
                 cardtitle="Gym Categories"
@@ -50,8 +51,8 @@ function App() {
               />
               <Category
                 cardimg={categorytrainers}
-                cardtitle="Personal Trainers"
-                cardtext="Find the perfect personal trainer to match your budget and fitness goals."
+                cardtitle="Wellness Professionals"
+                cardtext="Find the perfect trainers,physiotherapists and chiropractors to match your budget and fitness goals."
                 categorypath = "/categorytrainers"
               />
               <Category
@@ -70,14 +71,14 @@ function App() {
           ></Route>
 
           <Route exact path="/categorygyms" element={<CategoryGyms />}></Route>
-          <Route exact path="/categorygyms/standardgyms" element={<GymsContainer gymscontainertitle="Hi I Am Standard Gyms" gymsdata={STDGYMDATA}/>}></Route>
-          <Route exact path="/categorygyms/premiumgyms" element={<GymsContainer gymscontainertitle="Hi I Am Premium Gyms" gymsdata={PREGYMDATA}/>}></Route>
-          <Route exact path="/categorygyms/highpremiumgyms" element={<GymsContainer gymscontainertitle="Hi I Am High Premium Gyms" gymsdata={HIGHPREGYMDATA}/>}></Route>
+          <Route exact path="/categorygyms/standardgyms" element={<GymsContainer gymscontainertitle="Standard Gyms" gymscontainerdesctitle="Looking For Standard Gyms ?" gymscontainerdesc="Here Are The Most Well Knowned Standard Gyms" gymsdata={STDGYMDATA}/>}></Route>
+          <Route exact path="/categorygyms/premiumgyms" element={<GymsContainer gymscontainertitle="Premium Gyms" gymscontainerdesctitle="Looking For Premium Gyms ?" gymscontainerdesc="Here Are The Most Well Knowned Premium Gyms" gymsdata={PREGYMDATA}/>}></Route>
+          <Route exact path="/categorygyms/highpremiumgyms" element={<GymsContainer gymscontainertitle="High Premium Gyms" gymscontainerdesctitle="Looking For High Premium Gyms ?" gymscontainerdesc="Here Are The Most Well Knowned High Premium Gyms" gymsdata={HIGHPREGYMDATA}/>}></Route>
 
           <Route exact path="/categorytrainers" element={<CategoryTrainers />}></Route>
-          <Route exact path="/categorytrainers/personaltrainers" element={<TrainersContainer trainerscontainertitle="Hi I Am Personal Trainers" trainersdata={PERSONALDATA}/>}></Route>
-          <Route exact path="/categorytrainers/physiotherapists" element={<TrainersContainer trainerscontainertitle="Hi I Am Physio Therapist" trainersdata={PHYSIODATA}/>}></Route>
-          <Route exact path="/categorytrainers/chiropractors" element={<TrainersContainer trainerscontainertitle="Hi I Am Chiro Practor" trainersdata={CHIRODATA}/>}></Route>
+          <Route exact path="/categorytrainers/personaltrainers" element={<TrainersContainer trainerscontainertitle="Personal Trainers" trainerscontainerdesc="Professional Personal Trainers For You !" trainersdata={PERSONALDATA}/>}></Route>
+          <Route exact path="/categorytrainers/physiotherapists" element={<TrainersContainer trainerscontainertitle="Physio Therapist" trainerscontainerdesc="Professional Physio Therapists For You !" trainersdata={PHYSIODATA}/>}></Route>
+          <Route exact path="/categorytrainers/chiropractors" element={<TrainersContainer trainerscontainertitle="Chiro Practor" trainerscontainerdesc="Professional Chiropractors For You !" trainersdata={CHIRODATA}/>}></Route>
 
           <Route exact path="/categorysupplements" element={<CategorySupplements />}></Route>
 
@@ -87,6 +88,7 @@ function App() {
           <Route exact path="/categoryevents/jaindiet" element={<DietsContainer dietsdata={JAINDIETDATA} />}></Route>
 
           <Route exact path="/about" element={<About />}></Route>
+          
         </Routes>
         <Footer />
       </Router>

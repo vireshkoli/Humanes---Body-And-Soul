@@ -105,17 +105,17 @@ function CategorySupplements() {
           </button>
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="/">
                 Category
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="/">
                 Price
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="/">
                 Rating
               </a>
             </li>

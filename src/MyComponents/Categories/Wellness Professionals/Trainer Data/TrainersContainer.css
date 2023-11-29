@@ -5,7 +5,11 @@
         width: 100%;
         height: 12rem;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .trainerscontainer h2{
+        margin-top: 10vw;
     }
 }
