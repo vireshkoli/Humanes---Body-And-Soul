@@ -1,10 +1,14 @@
-import mealmorning from "./mealmorning.jpeg"
-import mealbreakfast from "./mealbreakfast.jpeg"
-import meallunch from "./meallunch.jpeg"
+import vegmealmorning from "./vegmealmorning.jpeg"
+import vegmealbreakfast from "./vegmealbreakfast.jpeg"
+import vegmeallunch from "./vegmeallunch.jpeg"
+
+import nonvegmealmorning from "./nonvegmealmorning.jpeg"
+import nonvegmealbreakfast from "./nonvegmealbreakfast.jpg"
+import nonvegmeallunch from "./nonvegmeallunch.jpeg"
 
 export const VEGDIETDATA = [
     {
-        mealimg : mealmorning,
+        mealimg : vegmealmorning,
         mealname : "1 Cup Greek Yogurt And 1/2 Cup Blueberries",
         mealtype : "Morning Snack",
         mealcalories : "233 Calories",
@@ -14,7 +18,7 @@ export const VEGDIETDATA = [
         mealfibre : "Fibre : 2g"
     },
     {
-        mealimg : mealbreakfast,
+        mealimg : vegmealbreakfast,
         mealname : "Pear And Walnut Recotta Toast With Honey",
         mealtype : "Breakfast",
         mealcalories : "353 Calories",
@@ -24,21 +28,21 @@ export const VEGDIETDATA = [
         mealfibre : "Fibre : 7g"
     },
     {
-        mealimg : meallunch,
-        mealname : "Loaded Greek Salad, Hard-Boiled Egg and 100-calorie whole wheat pita",
+        mealimg : vegmeallunch,
+        mealname : "Burrito bowl with chipotle black beans",
         mealtype : "Lunch",
-        mealcalories : "589 Calories",
-        mealcarbs : "Carbs : 43g",
-        mealprotein : "Protein : 24g",
-        mealfats : "Fats : 37g",
+        mealcalories : "573 Calories",
+        mealcarbs : "Carbs : 72g",
+        mealprotein : "Protein : 16g",
+        mealfats : "Fats : 21g",
         mealfibre : "Fibre : 15g"
     }
 ]
 
 export const NONVEGDIETDATA = [
     {
-        mealimg : mealmorning,
-        mealname : "1 Cup Greek Yogurt And 1/2 Cup Blueberries",
+        mealimg : nonvegmealmorning,
+        mealname : "Egg Britain Full Grain Sandwich 200gm",
         mealtype : "Morning Snack",
         mealcalories : "233 Calories",
         mealcarbs : "Carbs : 19g",
@@ -47,8 +51,8 @@ export const NONVEGDIETDATA = [
         mealfibre : "Fibre : 2g"
     },
     {
-        mealimg : mealbreakfast,
-        mealname : "Pear And Walnut Recotta Toast With Honey",
+        mealimg : nonvegmealbreakfast,
+        mealname : "Egg Mix With Roasted Curry And Greek Dams",
         mealtype : "Breakfast",
         mealcalories : "353 Calories",
         mealcarbs : "Carbs : 45g",
@@ -57,7 +61,7 @@ export const NONVEGDIETDATA = [
         mealfibre : "Fibre : 7g"
     },
     {
-        mealimg : meallunch,
+        mealimg : nonvegmeallunch,
         mealname : "Loaded Greek Salad, Hard-Boiled Egg and 100-calorie whole wheat pita",
         mealtype : "Lunch",
         mealcalories : "589 Calories",
@@ -70,7 +74,7 @@ export const NONVEGDIETDATA = [
 
 export const JAINDIETDATA = [
     {
-        mealimg : mealmorning,
+        mealimg : vegmealmorning,
         mealname : "1 Cup Greek Yogurt And 1/2 Cup Blueberries",
         mealtype : "Morning Snack",
         mealcalories : "233 Calories",
@@ -80,7 +84,7 @@ export const JAINDIETDATA = [
         mealfibre : "Fibre : 2g"
     },
     {
-        mealimg : mealbreakfast,
+        mealimg : vegmealbreakfast,
         mealname : "Pear And Walnut Recotta Toast With Honey",
         mealtype : "Breakfast",
         mealcalories : "353 Calories",
@@ -90,7 +94,7 @@ export const JAINDIETDATA = [
         mealfibre : "Fibre : 7g"
     },
     {
-        mealimg : meallunch,
+        mealimg : vegmeallunch,
         mealname : "Loaded Greek Salad, Hard-Boiled Egg and 100-calorie whole wheat pita",
         mealtype : "Lunch",
         mealcalories : "589 Calories",

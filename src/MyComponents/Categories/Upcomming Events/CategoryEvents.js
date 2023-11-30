@@ -8,7 +8,7 @@ import jain from "./jain.jpg";
 function CategoryEvents() {
   return (
     <>
-      <div className="eventheader">Hii I am Upcomming Events</div>
+      <div className="eventheader"><h2 className="cattitle floattitle">Upcomming Events</h2></div>
       <div className="dietcategories">
         <DietCategoryCard
           categoryimg={veg}
