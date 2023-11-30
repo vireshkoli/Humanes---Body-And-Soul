@@ -38,9 +38,9 @@ function Header() {
                 Contact Us
               </a>
             </li>
-            <li className="login">
-              <a className="nav-link" href="/">
-                LOGIN
+            <li className="loginsignup">
+              <a className="nav-link" href="/loginsignup">
+                Sign Up
               </a>
             </li>
           </ul>

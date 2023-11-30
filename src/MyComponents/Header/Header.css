@@ -64,7 +64,7 @@
         right: 30px;
         top: 3px;
     }
-    .login{
+    .loginsignup{
         background-color: rgb(94, 96, 97);
         width: 7vw;
         border-radius: 20px;
@@ -73,13 +73,13 @@
         margin-left: 20px;
         transition: background-color 0.3s ease;
     }
-    .login a{
+    .loginsignup a{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-right: 0;
     }
-    .login:hover {
+    .loginsignup:hover {
         background-color: rgb(164, 163, 163);
         color: black;
     }
@@ -161,7 +161,7 @@
     .navbar-light .navbar-nav .nav-link:hover{
         color: rgb(189, 184, 184);
     }
-    .login{
+    .loginsignup{
         background-color: rgb(94, 96, 97);
         width: 80px;
         height: 40px;
@@ -171,7 +171,7 @@
         margin-top: 8px;
         transition: background-color 0.3s ease;
     }
-    .login a{
-        margin-left: 18px;
+    .loginsignup a{
+        margin-left: 13px;
     }
 }

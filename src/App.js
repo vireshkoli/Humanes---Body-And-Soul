@@ -15,6 +15,8 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import About from "./MyComponents/About/About";
 
+import LoginSignup from "./MyComponents/Login Signup/LoginSignup"
+
 //Sub Categories
 import { HIGHPREGYMDATA, PREGYMDATA, STDGYMDATA } from "./MyComponents/Categories/Gym Categories/GymsData/Data";
 import CategoryGyms from "./MyComponents/Categories/Gym Categories/CategoryGyms";
@@ -88,6 +90,8 @@ function App() {
           <Route exact path="/categoryevents/jaindiet" element={<DietsContainer dietsdata={JAINDIETDATA} />}></Route>
 
           <Route exact path="/about" element={<About />}></Route>
+
+          <Route exact path="/loginsignup" element={<LoginSignup />}></Route>
           
         </Routes>
         <Footer />
