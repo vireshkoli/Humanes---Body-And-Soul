@@ -1,116 +1,197 @@
 @keyframes inputslideright {
-    from{
-        right: 100%;
-        opacity: 0;
-    }
-    to{
-        right: 0px;
-        opacity: 1;
-    }
+  from {
+    right: 100%;
+    opacity: 0;
+  }
+  to {
+    right: 0px;
+    opacity: 1;
+  }
 }
 
-.inputslideright{
-    animation: inputslideright 1s ease-in-out;
+.inputslideright {
+  animation: inputslideright 1s ease-in-out;
 }
 
-@media (max-width:992px) {
-    .loginsignupcontainer{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        margin-top: 10vw;
-        background: white;
-        padding-bottom: 5vw;
-        border-radius: 2vw;
-        box-shadow: rgba(247, 251, 255, 0.677) 0px 1px 2px 0px, rgba(245, 245, 245, 0.15) 0px 2px 6px 2px;
-    }
-    .loginsignupheader{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-top: 5vw;
-    }
-    .loginsignupheader h1{
-        font-size: 10vw;
-        font-weight: 700;
-    }
-    .underline{
-        width: 15vw;
-        height: 1vw;
-        background: black;
-        border-radius: 2vw;
-    }
-    .loginsignupinputs{
-        position: relative;
-        margin-top: 7vw;
-        display: flex;
-        flex-direction: column;
-        gap: 6vw;
-    }
-    .input{
+@media (max-width: 992px) {
+  .loginsignupcontainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10vw;
+    background: white;
+    padding-bottom: 5vw;
+    border-radius: 2vw;
+    box-shadow: rgba(247, 251, 255, 0.677) 0px 1px 2px 0px,
+      rgba(245, 245, 245, 0.15) 0px 2px 6px 2px;
+  }
+  .loginsignupheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vw;
+  }
+  .loginsignupheader h1 {
+    font-size: 10vw;
+    font-weight: 700;
+  }
+  .underline {
+    width: 15vw;
+    height: 1vw;
+    background: black;
+    border-radius: 2vw;
+  }
+  .loginsignupinputs {
+    position: relative;
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
+  .profileimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profileimage img{
+    border-radius: 8vw;
+    padding: 5vw;
+    background-color: rgb(184, 186, 189);
+    width: 20vw;
+  }
+  .profileimage label{
+    padding: 1vw;
+    margin-top: 3vw;
+    border: 0.5vw solid rgb(136, 134, 134);
+    border-radius: 1vw;
+  }
+  .input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 18vw;
+    background: rgb(210, 209, 209);
+    border-radius: 6px;
+  }
+  .input img {
+    margin: 0 6vw;
+  }
+  .input input {
+    height: 10vw;
+    width: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 4vw;
+  }
+  .aboutme{
+    height: 35vw;
+  }
+  .aboutme textarea {
+    width: 70%;
+    height: 20vw;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .contactno{
         position: relative;
         display: flex;
         align-items: center;
         margin: auto;
         width: 85%;
-        height: 18vw;
-        background: rgb(210, 209, 209);
+        /* height: 18vw; */
+        /* background: rgb(210, 209, 209); */
         border-radius: 6px;
-    }
-    .input img{
-        margin: 0 7vw;
-    }
-    .input input{
-        height: 10vw;
-        width: 70%;
-        background: transparent;
-        border: none;
-        outline: none;
-        font-size: 4vw;
-    }
-    .forgot-password{
-        padding-left: 7vw;
-        font-size: 3.5vw;
-    }
-    .forgot-password span{
-        font-weight: 700;
-        cursor: pointer;
-    }
-    .logintext{
-        padding-left: 7vw;
-        font-size: 3.5vw;
-    }
-    .logintext span{
-        font-weight: 700;
-        cursor: pointer;
-    }
-    .submitcontainer{
-        position: relative;
+  }
+  .contactno img{
+    margin-right: 3vw;
+  }
+  .uploadtransformations{
+    position: relative;
         display: flex;
-        flex-direction: column;
-        gap: 20px;
-        margin: 1vw auto;
-    }
-    .submit{
-        position: relative;
-        display: flex;
-        justify-content: center;
         align-items: center;
-        width: 38vw;
-        height: 15vw;
-        color: white;
-        background: black;
-        border-radius: 10vw;
-        font-size: 4vw;
-        font-weight: 700;
-        cursor: pointer;
-    }
-    .createaccount{
-        font-weight: 700;
-        cursor: pointer;
-        font: optional;
-        text-decoration: underline;
-    }
+        margin: auto;
+        width: 85%;
+        border-radius: 6px;
+        gap: 2vw;
+  }
+  .uploadtransformations img{
+    width: 8vw;
+  }
+  .uploadtransformations label{
+    padding: 1vw;
+    border: 0.5vw dotted rgb(136, 134, 134);
+    border-radius: 1vw;
+  }
+  .sessionamount{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 18vw;
+    background: rgb(210, 209, 209);
+    border-radius: 6px; 
+    gap: 3vw;
+  }
+  .sessionamount img{
+    width: 10vw;
+    margin-left: 3vw;
+  }
+  .sessionamount input{
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .forgot-password {
+    padding-left: 7vw;
+    font-size: 3.5vw;
+  }
+  .forgot-password span {
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .signuptext {
+    padding-left: 7vw;
+    font-size: 3.5vw;
+  }
+  .signuptext span {
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .submitcontainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 1vw auto;
+  }
+  .submit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38vw;
+    height: 15vw;
+    color: white;
+    background: black;
+    border-radius: 10vw;
+    font-size: 4vw;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .createaccount {
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
