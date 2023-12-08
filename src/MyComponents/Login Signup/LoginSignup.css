@@ -12,6 +12,10 @@
 .inputslideright {
   animation: inputslideright 1s ease-in-out;
 }
+@media (min-width: 992px) {
+  
+}
+
 
 @media (max-width: 992px) {
   .loginsignupcontainer {
@@ -98,6 +102,39 @@
     border: none;
     outline: none;
   }
+  .gymheadline{
+    height: 22vw;
+  }
+  .gymheadline textarea{
+    margin-top: 8vw;
+    width: 70%;
+    height: 22vw;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .gymaddress{
+    height: 30vw;
+  }
+  .gymaddress textarea{
+    margin-top: 1vw;
+    width: 70%;
+    height: 22vw;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .gymdesc{
+    height: 40vw;
+  }
+  .gymdesc textarea{
+    margin-top: 2vw;
+    width: 70%;
+    height: 30vw;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
   .contactno{
         position: relative;
         display: flex;
@@ -111,7 +148,7 @@
   .contactno img{
     margin-right: 3vw;
   }
-  .uploadtransformations{
+  .uploadfiles{
     position: relative;
         display: flex;
         align-items: center;
@@ -120,13 +157,17 @@
         border-radius: 6px;
         gap: 2vw;
   }
-  .uploadtransformations img{
+  .uploadfiles img{
     width: 8vw;
   }
-  .uploadtransformations label{
+  .uploadfiles label{
     padding: 1vw;
     border: 0.5vw dotted rgb(136, 134, 134);
     border-radius: 1vw;
+  }
+  .uploadfiles span{
+    font-size: 3vw;
+    margin-left: 1vw;
   }
   .sessionamount{
     position: relative;
@@ -155,6 +196,14 @@
   .forgot-password span {
     font-weight: 700;
     cursor: pointer;
+  }
+  .signuptype{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+  #loginhere{
+    margin-bottom: 3vw;
   }
   .signuptext {
     padding-left: 7vw;
