@@ -174,4 +174,14 @@
     .loginsignup a{
         margin-left: 13px;
     }
+    .profile img{
+        position: relative;
+        width: 8vw;
+        height: auto;
+        cursor: pointer;
+    }
+    .navside{
+        display: flex;
+        gap: 1vw;
+    }
 }

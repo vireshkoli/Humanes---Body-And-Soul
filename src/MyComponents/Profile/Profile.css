@@ -1,0 +1,9 @@
+.profilepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profilepage img{
+    width: 100vw;
+    height: auto;
+}

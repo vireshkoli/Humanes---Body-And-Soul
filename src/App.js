@@ -17,6 +17,8 @@ import About from "./MyComponents/About/About";
 
 import LoginSignup from "./MyComponents/Login Signup/LoginSignup"
 
+import Profile from "./MyComponents/Profile/Profile"
+
 //Sub Categories
 import { HIGHPREGYMDATA, PREGYMDATA, STDGYMDATA } from "./MyComponents/Categories/Gym Categories/GymsData/Data";
 import CategoryGyms from "./MyComponents/Categories/Gym Categories/CategoryGyms";
@@ -92,6 +94,8 @@ function App() {
           <Route exact path="/about" element={<About />}></Route>
 
           <Route exact path="/loginsignup" element={<LoginSignup />}></Route>
+
+          <Route exact path="/profile" element={<Profile />}></Route>
           
         </Routes>
         <Footer />
